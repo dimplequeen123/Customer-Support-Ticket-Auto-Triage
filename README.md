@@ -1,8 +1,3 @@
-Professional README.md Template
-Your repository must include a clear setup and usage guide. You can copy and adapt this:
-
-Markdown
-
 # Customer Support Ticket Auto-Triage
 
 ## Project Overview
