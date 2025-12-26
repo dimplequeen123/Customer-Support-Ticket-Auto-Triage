@@ -1,8 +1,7 @@
-1. Weighted Evaluation Script
-This script calculates your performance based on the specific weights provided in the project brief: Accuracy (40%), Precision & Recall (30%), F1-Score (20%), and Latency (10%).
+## 1. Weighted Evaluation Script
+This script calculates performance based on the specific weights provided in the project brief: Accuracy (40%), Precision & Recall (30%), F1-Score (20%), and Latency (10%).
 +1
 
-Python
 
 import time
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
@@ -34,9 +33,10 @@ def calculate_weighted_score(y_true, y_pred, latency_per_ticket):
         "F1 (20%)": f1,
         "Latency Score (10%)": latency_score
     }
-2. Organizing Data & Model Access
-To make your final model and data "easily accessible" , use the following structure in your Git repository:
-+1
+
+## 2. Organizing Data & Model Access
+
+To make final model and data "easily accessible" , use the following structure in your Git repository:
 
 /models/: Place your serialized model here (e.g., classifier.pkl). This is your Trained ML Model deliverable.
 
@@ -45,12 +45,9 @@ To make your final model and data "easily accessible" , use the following struct
 
 
 requirements.txt: Ensure it includes Python 3.8+ and libraries like scikit-learn, pandas, numpy, NLTK/SpaCy, and TensorFlow/PyTorch.
-+1
 
-3. Methodology Report (Deliverable)
-Your Technical Documentation must explain how you addressed the following categories:
-+1
-
+## 3. Methodology Report (Deliverable)
+Technical Documentation must explain addressed the following categories:
 
 Bug Report: Software defects.
 
