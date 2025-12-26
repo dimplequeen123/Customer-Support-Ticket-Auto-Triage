@@ -1,4 +1,4 @@
-1. Professional README.md Template
+Professional README.md Template
 Your repository must include a clear setup and usage guide. You can copy and adapt this:
 
 Markdown
