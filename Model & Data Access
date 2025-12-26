@@ -1,6 +1,5 @@
 ## 1. Weighted Evaluation Script
 This script calculates performance based on the specific weights provided in the project brief: Accuracy (40%), Precision & Recall (30%), F1-Score (20%), and Latency (10%).
-+1
 
 
 import time
